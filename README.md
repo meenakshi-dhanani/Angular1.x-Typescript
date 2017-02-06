@@ -6,7 +6,7 @@ Angular 2 is written in Typescript. A good way of migrating our application to A
 
 ### Project
 
-I have tried to move a part of SWS application, an independent module of a large project to Typescript. I haven't converted all parts of the original Javascript to Typescript, but some basic functionality, that's one way to go about it.
+I have tried to move a part of an application, an independent module of a large project to Typescript. I haven't converted all parts of the original Javascript to Typescript, but some basic functionality, that's one way to go about it.
 
 Constants Controller operates in the following manner
  - Receives a XML data from an Angular service
