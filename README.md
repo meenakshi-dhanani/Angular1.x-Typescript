@@ -31,7 +31,7 @@ For AngularJS, since we want static typing support, we download the respective t
 PM> Install-Package angularjs.Typescript.DefinitelyTyped
 ```
 
-Now, create new Typescript files. If you do not see the Javascript file after creating the Typescript file, [check for Tricky Parts solution](#the-tricky-parts)
+Now, create new Typescript files. If you do not see the Javascript file after creating the Typescript file, [check for solution](#the-tricky-parts)
 
 Typescript modules can have code spread across files, making it easier to maintain. Since, Typescript is a superset of Javascript, all valid Javascript is valid Typescript. So we can move to Typescript gradually.
 
