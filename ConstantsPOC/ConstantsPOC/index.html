@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <script src="Script/js/angular.min.js"></script>
+    <script src="Script/js/jquery-3.1.1.js"></script>
+   
+
+</head>
+<body>
+    <h3>XML to TreeView - Angular 1.x with Typescript</h3>
+
+    <script src="app/RuleConstants.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/XMLHandler.Service.js"></script>
+    <script src="app/Constant.js"></script>
+    <script src="app/Groups.js"></script>
+    <script src="app/ConstantsController.js"></script>
+    <script src="app/Treeview.Directive.js"></script>
+   
+    <ul ng-app="myApp" ng-controller="ConstantsController as vm">
+       
+        <li ng-repeat="ele in vm.groups"><treeview>{{ele}}</treeview></li>
+          
+        <br/><button ng-click="vm.showResult()">Show XML</button>
+    </ul>
+
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+<groups ID="NeoConstant" GroupType="Manual" sfwNodeID="113487ae-b5b5-4fe6-8fa7-7a5bb9c4ced5">
+  <groups ID="DepositTapeStatus" GroupType="Query" sfwQuery="SELECT * FROM SGS_CODE_VALUE WITH(NOLOCK)&#xD;&#xA;WHERE CODE_ID = 30500003" sfwNodeID="540f08c6-ba0a-458f-bb5e-249678445580">
+    <constant ID="Balanced" Value="BALC" sfwDataType="string" Description="Balanced"></constant>
+    <constant ID="Confirmed_with_Bank" Value="COBK" sfwDataType="string" Description="Confirmed with Bank "></constant>
+    <constant ID="Review" Value="REVW" sfwDataType="string" Description="Review"></constant>
+  </groups>
+</groups>
